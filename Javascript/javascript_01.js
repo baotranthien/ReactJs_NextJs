@@ -1,111 +1,102 @@
-//challenge 1
-console.log("Challenge 1:")
-mark_weight_1 = 78
-mark_height_1 = 1.69
-john_weight_1 = 92
-john_height_1 = 1.95
+console.log(`Part 1: Challenge 1`)
+let  markMass = 78, markHeight = 1.69
+let johnMass = 92, johnHeight = 1.95
+let markBMI1 = markMass / (markHeight**2)
+let johnBMI1 = johnMass / (johnHeight*johnHeight)
+let markHigherBMI1 = markBMI1 > johnBMI1
+
+console.log('Data 1:');
+console.log(`Mark's BMI: ${markBMI1.toFixed(2)}`);
+console.log(`John's BMI: ${johnBMI1.toFixed(2)}`);
+console.log(`Mark has higher BMI than John: ${markHigherBMI1}`);
 
 
-mark_weight_2 = 95
-mark_height_2 = 1.88
-john_weight_2 = 85
-john_height_2 = 1.76
+const markMass2 = 95;
+const markHeight2 = 1.88;
+const johnMass2 = 85;
+const johnHeight2 = 1.76;
 
-function CalBMI(mass, height) {
-    bmi = mass / height ** 2
-    console.log(bmi)
-    return bmi
+const markBMI2 = markMass2 / (markHeight2 * markHeight2);
+const johnBMI2 = johnMass2 / (johnHeight2 * johnHeight2);
+
+const markHigherBMI2 = markBMI2 > johnBMI2;
+
+console.log('\nData 2:');
+console.log(`Mark's BMI: ${markBMI2.toFixed(2)}`);
+console.log(`John's BMI: ${johnBMI2.toFixed(2)}`);
+console.log(`Mark has higher BMI than John: ${markHigherBMI2}`);
+
+console.log(`Challenge 2`);
+if(markBMI1>johnBMI1){
+    console.log(`Data 1: Mark's BMI ${markBMI1.toFixed(2)} is higher than John's ${johnBMI1.toFixed(2)}`)
+}else{
+    console.log(`Data 1: John's BMI ${johnBMI1.toFixed(2)} is higher than Mark's ${markBMI1.toFixed(2)}`)
 }
 
-console.log("Data 1:")
-mark_bmi_1 = CalBMI(mark_weight_1, mark_height_1)
-john_bmi_1 = CalBMI(john_weight_1, john_height_1)
-
-markHigherBMI_1 = (mark_bmi_1 - john_bmi_1) > 0
-console.log(markHigherBMI_1)
-
-console.log("Data 2:")
-mark_bmi_2 = CalBMI(mark_weight_2, mark_height_2)
-john_bmi_2 = CalBMI(john_weight_2, john_height_2)
-
-markHigherBMI_2 = (mark_bmi_2 - john_bmi_2) > 0
-console.log(markHigherBMI_2)
-
-
-//challenge 2
-console.log("Challenge 2:")
-function compareBmi(markBmi, johnBmi) {
-    if (markBmi > johnBmi) {
-        console.log("Mark's BMI ("+ markBmi +") is higher than John's ("+ johnBmi +")!")
-    }
-    else {
-        console.log("John's BMI ("+ johnBmi +") is higher than Mark's ("+ markBmi +")!")
-    }
+if(markBMI2>johnBMI2){
+    console.log(`Data 2: Mark's BMI ${markBMI2.toFixed(2)} is higher than John's ${johnBMI2.toFixed(2)}`)
+}else{
+    console.log(`Data 2: John's BMI ${johnBMI2.toFixed(2)} is higher than Mark's ${markBMI2.toFixed(2)}`)
 }
 
-compareBmi(mark_bmi_1, john_bmi_1)
-compareBmi(mark_bmi_2, john_bmi_2)
+console.log(`Challenge 3`);
+function avg(a,b,c){return (a+b+c)/3}
+let dolpAvgBase = avg(96,108,89)
+let koalAvgBase = avg(88,91,110)
+console.log(`Data 1:`);
+if(dolpAvgBase > koalAvgBase){
+    console.log(`Dolphin wins!`);
+}else if(koalAvgBase > dolpAvgBase){ 
+    console.log(`Koalas wins!`);
+}else{
+    console.log(`Draw game`);
+}
+console.log(`Data bonus 1`);
+let dolpAvgB1= avg(97, 112, 101)
+let koalAvgB1= avg(109, 95, 123)
+console.log(`Dolphin's avg: ${dolpAvgB1.toFixed(2)}`);
+console.log(`Koalas's avg: ${koalAvgB1}`);
+if(dolpAvgB1 > koalAvgB1 && dolpAvgB1 >=100){
+    console.log(`Dolphin wins`);
+}else if(koalAvgB1 > dolpAvgB1 && koalAvgB1>=100){
+    console.log(`Koalas wins`);
+}else if(dolpAvgB1 === koalAvgB1 && dolpAvgB1 >= 100){
+    console.log(`Draw game`);
+}else{
+    console.log(`No one wins`);
+}
+const dolphinsScoreBonus2 = avg(97, 112, 101);
+const koalasScoreBonus2 = avg(109, 95, 106);
 
-//challenge 3
-console.log("Challenge 3:")
-function calAvg(score1, score2, score3) {
-    avg = (score1 + score2 + score3) / 3
-    console.log(avg)
-    return avg
+console.log('\nBonus 2:');
+console.log(`Dolphins average: ${dolphinsScoreBonus2.toFixed(2)}`);
+console.log(`Koalas average: ${koalasScoreBonus2.toFixed(2)}`);
+
+if (dolphinsScoreBonus2 > koalasScoreBonus2 && dolphinsScoreBonus2 >= 100) {
+  console.log('Dolphins win!');
+} else if (koalasScoreBonus2 > dolphinsScoreBonus2 && koalasScoreBonus2 >= 100) {
+  console.log('Koalas win!');
+} else if (dolphinsScoreBonus2 === koalasScoreBonus2 && dolphinsScoreBonus2 >= 100 && koalasScoreBonus2 >= 100) {
+  console.log('It\'s a draw!');
+} else {
+  console.log('No team wins the trophy!');
 }
 
-console.log("Data 1:")
-dol_avg_1 = calAvg(96, 108, 89)
-koa_avg_1 = calAvg(88, 91, 110)
-
-function compareScore(dol, koa) {
-    if (dol > koa) {
-        console.log("Dolphins wins")
-    }
-    else if (dol < koa) {
-        console.log("Koalas wins")
-    }
-    else {
-        console.log("Dolphins and Koalas Draws!")
-    }
+console.log(`Challenge 4`);
+function tipCal(bill){
+    return (bill >=50 && bill<=300) ? bill*0.15 : bill*0.2
 }
+console.log(`Bill value: 275`);
+let bill = 275
+let tip = tipCal(bill)
+console.log(`The bill was ${bill}, the tip was ${tip.toFixed(2)}, and the total value ${bill+tip}`);
 
-compareScore(dol_avg_1, koa_avg_1)
+console.log(`Bill value: 40`);
+bill = 40
+tip = tipCal(bill)
+console.log(`The bill was ${bill}, the tip was ${tip.toFixed(2)}, and the total value ${bill+tip}`);
 
-function compareScoreWithMin(dol, koa) {
-    if (dol > koa && dol >= 100) {
-        console.log("Dolphins wins")
-    }
-    else if (dol < koa && koa >= 100) {
-        console.log("Koalas wins")
-    }
-    else if (dol >= 100 && koa >= 100 && dol == koa) {
-        console.log("Dolphins and Koalas Draws!")
-    }
-    else {
-        console.log("No team wins the trophy")
-    }
-}
-
-console.log("Data 2:")
-dol_avg_2 = calAvg(97, 112, 101)
-koa_avg_2 = calAvg(109, 95, 123)
-compareScoreWithMin(dol_avg_2, koa_avg_2)
-
-console.log("Data 3:")
-dol_avg_2 = calAvg(97, 112, 101)
-koa_avg_2 = calAvg(109, 95, 106)
-compareScoreWithMin(dol_avg_2, koa_avg_2)
-
-//challenge 4
-console.log("Challenge 4:")
-
-function calTip(bill) {
-    tip = (bill >= 50 && bill <= 300) ? bill*0.15 : bill*0.2
-    console.log("The bill was "+bill+", the tip was "+tip+", and the total value "+(bill+tip))
-    return tip
-}
-
-tip_1 = calTip(275)
-tip_2 = calTip(40)
-tip_3 = calTip(430)
+console.log(`Bill value: 430`);
+bill = 430
+tip = tipCal(bill)
+console.log(`The bill was ${bill}, the tip was ${tip.toFixed(2)}, and the total value ${bill+tip}`);
