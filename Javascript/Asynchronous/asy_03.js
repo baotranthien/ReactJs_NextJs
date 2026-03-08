@@ -1,30 +1,49 @@
-async function loadNPause() {
-  try {
-    let img = await createImage("img/img-1.jpg");
-    await wait(2);
-    img.style.display = "none";
+const wait = function (seconds) {
+  return new Promise(resolve => {
+    setTimeout(resolve, seconds * 1000);
+  });
+};
 
-    img = await createImage("img/img-2.jpg");
-    await wait(2);
-    img.style.display = "none";
-  } catch (err) {
-    console.error(err);
-  }
-}
+const createImage = function (imgPath) {
+  return new Promise(function (resolve, reject) {
+    const img = document.createElement('img');
+    img.src = imgPath;
 
-loadNPause();
-async function loadAll(imgArr) {
-  try {
-    const imgs = imgArr.map(async function (img) {
-      return await createImage(img);
+    img.addEventListener('load', function () {
+      document.body.append(img);
+      resolve(img);
     });
 
-    const imgsEl = await Promise.all(imgs);
+    img.addEventListener('error', function () {
+      reject(new Error('Image not found'));
+    });
+  });
+};
 
-    imgsEl.forEach((img) => img.classList.add("parallel"));
+const loadNPause = async function () {
+  try {
+    let img = await createImage('img/img-1.jpg');
+    await wait(2);
+    img.style.display = 'none';
+
+    img = await createImage('img/img-2.jpg');
+    await wait(2);
+    img.style.display = 'none';
   } catch (err) {
     console.error(err);
   }
-}
+};
 
-loadAll(["img/img-1.jpg", "img/img-2.jpg", "img/img-3.jpg"]);
+loadNPause();
+
+const loadAll = async function (imgArr) {
+  try {
+    const imgs = imgArr.map(async img => await createImage(img));
+    const imgsEl = await Promise.all(imgs);
+    imgsEl.forEach(img => img.classList.add('parallel'));
+  } catch (err) {
+    console.error(err);
+  }
+};
+
+loadAll(['img/img-1.jpg', 'img/img-2.jpg', 'img/img-3.jpg']);
