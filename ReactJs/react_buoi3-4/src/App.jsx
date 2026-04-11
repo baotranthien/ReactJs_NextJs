@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const res = await fetch("/hotels_20.json");
+        const res = await fetch("/hotel_20.json");
 
         if (!res.ok) {
           throw new Error("Cannot load data");
