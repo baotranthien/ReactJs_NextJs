@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Sunrise Hotel",
+    "address": "District 1, HCMC",
+    "cuisine": ["Vietnamese", "Asian"],
+    "status": "open"
+  },
+  {
+    "id": 2,
+    "name": "Ocean View Resort",
+    "address": "Da Nang",
+    "cuisine": ["Seafood", "Western"],
+    "status": "open"
+  },
+  {
+    "id": 3,
+    "name": "Mountain Retreat",
+    "address": "Da Lat",
+    "cuisine": ["Vegetarian"],
+    "status": "closed"
+  },
+  {
+    "id": 4,
+    "name": "Golden Palace",
+    "address": "Hanoi",
+    "cuisine": ["Chinese", "Asian"],
+    "status": "open"
+  },
+  {
+    "id": 5,
+    "name": "River Side Hotel",
+    "address": "Can Tho",
+    "cuisine": ["Vietnamese"],
+    "status": "maintenance"
+  },
+  {
+    "id": 6,
+    "name": "City Lights Hotel",
+    "address": "HCMC",
+    "cuisine": ["Western"],
+    "status": "open"
+  },
+  {
+    "id": 7,
+    "name": "Lotus Boutique",
+    "address": "Hue",
+    "cuisine": ["Vietnamese", "Fusion"],
+    "status": "closed"
+  },
+  {
+    "id": 8,
+    "name": "Skyline Hotel",
+    "address": "Hanoi",
+    "cuisine": ["Japanese"],
+    "status": "open"
+  },
+  {
+    "id": 9,
+    "name": "Pearl Beach Resort",
+    "address": "Phu Quoc",
+    "cuisine": ["Seafood"],
+    "status": "open"
+  },
+  {
+    "id": 10,
+    "name": "Green Garden Hotel",
+    "address": "Da Lat",
+    "cuisine": ["Vegetarian", "Vegan"],
+    "status": "open"
+  },
+  {
+    "id": 11,
+    "name": "Royal Dragon",
+    "address": "HCMC",
+    "cuisine": ["Chinese"],
+    "status": "closed"
+  },
+  {
+    "id": 12,
+    "name": "Blue Ocean Hotel",
+    "address": "Nha Trang",
+    "cuisine": ["Seafood", "Asian"],
+    "status": "open"
+  },
+  {
+    "id": 13,
+    "name": "Urban Stay",
+    "address": "Hanoi",
+    "cuisine": ["Western", "Fast Food"],
+    "status": "open"
+  },
+  {
+    "id": 14,
+    "name": "Palm Resort",
+    "address": "Vung Tau",
+    "cuisine": ["Seafood", "Vietnamese"],
+    "status": "maintenance"
+  },
+  {
+    "id": 15,
+    "name": "Heritage Hotel",
+    "address": "Hue",
+    "cuisine": ["Vietnamese"],
+    "status": "open"
+  },
+  {
+    "id": 16,
+    "name": "Fusion Suites",
+    "address": "HCMC",
+    "cuisine": ["Fusion"],
+    "status": "open"
+  },
+  {
+    "id": 17,
+    "name": "Zen Retreat",
+    "address": "Da Lat",
+    "cuisine": ["Japanese", "Vegetarian"],
+    "status": "closed"
+  },
+  {
+    "id": 18,
+    "name": "Sunset Beach Hotel",
+    "address": "Phu Quoc",
+    "cuisine": ["Seafood"],
+    "status": "open"
+  },
+  {
+    "id": 19,
+    "name": "Central Plaza Hotel",
+    "address": "Hanoi",
+    "cuisine": ["Western", "Asian"],
+    "status": "open"
+  },
+  {
+    "id": 20,
+    "name": "Eco Lodge",
+    "address": "Sapa",
+    "cuisine": ["Vegetarian", "Organic"],
+    "status": "maintenance"
+  }
+]
