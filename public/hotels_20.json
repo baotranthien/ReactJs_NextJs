@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "name": "Sunrise Saigon Hotel",
+    "address": "123 Le Loi, District 1, Ho Chi Minh City",
+    "location": "Ho Chi Minh City",
+    "room": [
+      {
+        "type": "Standard",
+        "price": 45,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "Deluxe",
+        "price": 68,
+        "beds": 1,
+        "available": true
+      }
+    ],
+    "cuisine": [
+      "Vietnamese",
+      "Breakfast Buffet",
+      "Coffee"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 2,
+    "name": "Riverside Grand Hotel",
+    "address": "45 Bach Dang, District 1, Ho Chi Minh City",
+    "location": "Ho Chi Minh City",
+    "room": [
+      {
+        "type": "Standard",
+        "price": 52,
+        "beds": 2,
+        "available": true
+      },
+      {
+        "type": "Suite",
+        "price": 110,
+        "beds": 2,
+        "available": false
+      }
+    ],
+    "cuisine": [
+      "Seafood",
+      "Asian Fusion",
+      "Cocktails"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 3,
+    "name": "Lotus Garden Hotel",
+    "address": "88 Nguyen Hue, District 1, Ho Chi Minh City",
+    "location": "Ho Chi Minh City",
+    "room": [
+      {
+        "type": "Superior",
+        "price": 60,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "Family",
+        "price": 95,
+        "beds": 3,
+        "available": true
+      }
+    ],
+    "cuisine": [
+      "Vietnamese",
+      "Vegetarian",
+      "Dessert"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 4,
+    "name": "Blue Bay Resort",
+    "address": "12 Tran Phu, Nha Trang, Khanh Hoa",
+    "location": "Nha Trang",
+    "room": [
+      {
+        "type": "Ocean View",
+        "price": 90,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "Villa",
+        "price": 180,
+        "beds": 4,
+        "available": true
+      }
+    ],
+    "cuisine": [
+      "Seafood",
+      "BBQ",
+      "International"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 5,
+    "name": "Mountain Peak Lodge",
+    "address": "7 Xuan Huong, Da Lat, Lam Dong",
+    "location": "Da Lat",
+    "room": [
+      {
+        "type": "Cozy Room",
+        "price": 40,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "Family Suite",
+        "price": 88,
+        "beds": 3,
+        "available": false
+      }
+    ],
+    "cuisine": [
+      "Hotpot",
+      "Vietnamese",
+      "Baked Goods"
+    ],
+    "status": "maintenance"
+  },
+  {
+    "id": 6,
+    "name": "Golden Pearl Hotel",
+    "address": "28 Vo Nguyen Giap, Da Nang",
+    "location": "Da Nang",
+    "room": [
+      {
+        "type": "Standard",
+        "price": 55,
+        "beds": 2,
+        "available": true
+      },
+      {
+        "type": "Premium",
+        "price": 100,
+        "beds": 2,
+        "available": true
+      }
+    ],
+    "cuisine": [
+      "Italian",
+      "Seafood",
+      "Breakfast Buffet"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 7,
+    "name": "Heritage Palace Hotel",
+    "address": "9 Hung Vuong, Hue, Thua Thien Hue",
+    "location": "Hue",
+    "room": [
+      {
+        "type": "Superior",
+        "price": 48,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "Suite",
+        "price": 120,
+        "beds": 2,
+        "available": true
+      }
+    ],
+    "cuisine": [
+      "Hue Cuisine",
+      "Vietnamese",
+      "Tea"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 8,
+    "name": "Mekong View Hotel",
+    "address": "66 Ninh Kieu, Can Tho",
+    "location": "Can Tho",
+    "room": [
+      {
+        "type": "Standard",
+        "price": 38,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "River View",
+        "price": 72,
+        "beds": 2,
+        "available": true
+      }
+    ],
+    "cuisine": [
+      "Mekong Specialties",
+      "Seafood",
+      "Fruit"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 9,
+    "name": "Central Plaza Hotel",
+    "address": "101 Tran Hung Dao, Hanoi",
+    "location": "Hanoi",
+    "room": [
+      {
+        "type": "Classic",
+        "price": 58,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "Executive",
+        "price": 115,
+        "beds": 2,
+        "available": false
+      }
+    ],
+    "cuisine": [
+      "Pho",
+      "Vietnamese",
+      "Coffee"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 10,
+    "name": "Lakeside Inn",
+    "address": "5 Ba Dinh, Hanoi",
+    "location": "Hanoi",
+    "room": [
+      {
+        "type": "Small Room",
+        "price": 35,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "Family Room",
+        "price": 78,
+        "beds": 3,
+        "available": true
+      }
+    ],
+    "cuisine": [
+      "Breakfast Buffet",
+      "Asian",
+      "Bakery"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 11,
+    "name": "Ocean Breeze Hotel",
+    "address": "21 Tran Hung Dao, Phu Quoc, Kien Giang",
+    "location": "Phu Quoc",
+    "room": [
+      {
+        "type": "Garden View",
+        "price": 70,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "Beach Villa",
+        "price": 160,
+        "beds": 2,
+        "available": true
+      }
+    ],
+    "cuisine": [
+      "Seafood",
+      "Grilled Dishes",
+      "Cocktails"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 12,
+    "name": "Saigon Elite Hotel",
+    "address": "55 Nguyen Thi Minh Khai, District 3, Ho Chi Minh City",
+    "location": "Ho Chi Minh City",
+    "room": [
+      {
+        "type": "Deluxe",
+        "price": 62,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "Penthouse",
+        "price": 210,
+        "beds": 3,
+        "available": false
+      }
+    ],
+    "cuisine": [
+      "Japanese",
+      "Vietnamese",
+      "Sushi"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 13,
+    "name": "Green Valley Hotel",
+    "address": "18 Duy Tan, Da Nang",
+    "location": "Da Nang",
+    "room": [
+      {
+        "type": "Twin Room",
+        "price": 50,
+        "beds": 2,
+        "available": true
+      },
+      {
+        "type": "Suite",
+        "price": 105,
+        "beds": 2,
+        "available": true
+      }
+    ],
+    "cuisine": [
+      "Vegetarian",
+      "Salad",
+      "Fruit Juice"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 14,
+    "name": "Royal Coast Hotel",
+    "address": "2 Nguyen Tat Thanh, Quy Nhon, Binh Dinh",
+    "location": "Quy Nhon",
+    "room": [
+      {
+        "type": "Ocean Room",
+        "price": 65,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "Suite",
+        "price": 140,
+        "beds": 2,
+        "available": true
+      }
+    ],
+    "cuisine": [
+      "Seafood",
+      "BBQ",
+      "Local Dishes"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 15,
+    "name": "Sunset Bay Hotel",
+    "address": "77 Truong Sa, Da Nang",
+    "location": "Da Nang",
+    "room": [
+      {
+        "type": "Standard",
+        "price": 54,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "Sea View",
+        "price": 98,
+        "beds": 2,
+        "available": true
+      }
+    ],
+    "cuisine": [
+      "Vietnamese",
+      "Seafood",
+      "Pastry"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 16,
+    "name": "Emerald City Hotel",
+    "address": "14 Nguyen Van Cu, Can Tho",
+    "location": "Can Tho",
+    "room": [
+      {
+        "type": "Compact",
+        "price": 42,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "Executive",
+        "price": 86,
+        "beds": 2,
+        "available": true
+      }
+    ],
+    "cuisine": [
+      "Breakfast Buffet",
+      "Coffee",
+      "Asian"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 17,
+    "name": "Horizon Hotel",
+    "address": "99 Hai Ba Trung, Hanoi",
+    "location": "Hanoi",
+    "room": [
+      {
+        "type": "Standard",
+        "price": 57,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "Family Suite",
+        "price": 112,
+        "beds": 3,
+        "available": false
+      }
+    ],
+    "cuisine": [
+      "Pho",
+      "Noodles",
+      "Tea"
+    ],
+    "status": "maintenance"
+  },
+  {
+    "id": 18,
+    "name": "Lotus Riverside Hotel",
+    "address": "33 Le Thanh Ton, Ho Chi Minh City",
+    "location": "Ho Chi Minh City",
+    "room": [
+      {
+        "type": "Superior",
+        "price": 61,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "Suite",
+        "price": 125,
+        "beds": 2,
+        "available": true
+      }
+    ],
+    "cuisine": [
+      "Vietnamese",
+      "Seafood",
+      "Dessert"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 19,
+    "name": "Crystal Sands Resort",
+    "address": "8 Nguyen Dinh Chieu, Phan Thiet, Binh Thuan",
+    "location": "Phan Thiet",
+    "room": [
+      {
+        "type": "Garden View",
+        "price": 75,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "Beachfront Villa",
+        "price": 190,
+        "beds": 4,
+        "available": true
+      }
+    ],
+    "cuisine": [
+      "Seafood",
+      "BBQ",
+      "Tropical Drinks"
+    ],
+    "status": "available"
+  },
+  {
+    "id": 20,
+    "name": "Violet Hill Hotel",
+    "address": "10 Hoa Binh, Da Lat, Lam Dong",
+    "location": "Da Lat",
+    "room": [
+      {
+        "type": "Deluxe",
+        "price": 49,
+        "beds": 1,
+        "available": true
+      },
+      {
+        "type": "Family",
+        "price": 92,
+        "beds": 3,
+        "available": true
+      }
+    ],
+    "cuisine": [
+      "Hotpot",
+      "Bakery",
+      "Coffee"
+    ],
+    "status": "available"
+  }
+]
