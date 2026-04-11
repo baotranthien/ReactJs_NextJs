@@ -122,7 +122,7 @@ function App() {
 
       <hr />
 
-      {/* ⭐ UI */}
+     
       {loading ? (
         <p>Loading...</p>
       ) : error ? (
